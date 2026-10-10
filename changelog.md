@@ -4,6 +4,58 @@ title: Changelog
 description: Review the ShareX changelog for release notes, new features, improvements, and other notable changes.
 ---
 
+## [ShareX 21.1.0](https://github.com/ShareX/ShareX/releases/tag/v21.1.0) - Unreleased {#v21.1.0}
+
+* Main window, tray menu, settings, notifications, message boxes and most tools were migrated to [Avalonia UI](https://avaloniaui.net), ShareX now targets .NET 10.
+* Added "Video trimmer" tool, with "Lossless" and "Precise" trim modes, editable timestamps and a "Trim video" action in the task context menu.
+* Added "Animated GIF trimmer" tool, with frame stepping controls and lossless frame preservation.
+* Added "Mouse highlighter" tool, with left, right & middle mouse button support.
+* Added "Network monitor" tool.
+* Added "Monitor test", "Ruler", "Hash checker", "QR code", "Image combiner", "Image resizer", "Image converter", "Icon converter" and "Video converter" tools as new windows.
+* Added a video player for history items.
+* Added "Trim video" and "Trim animated GIF" actions to the history window.
+* Added HDR screenshot color correction.
+* Added Czech, Danish, Hindi, Swedish and Thai languages.
+* Screen recording improvements:
+    * Added Windows-native screen recording, which is now used by default for video recordings (GIF recordings still use FFmpeg).
+    * Added microphone and system audio device selection for native recording.
+    * Added camera overlay, with circular shape option.
+    * Added recorder setup bar, with "Timer" toggle and start delay menu beside the "Record" button.
+    * Added "Restart" button to screen recording toolbar and tray menu.
+    * Added options to show or hide the recording timer and button labels.
+* Region capture improvements:
+    * Added screen crosshair option.
+    * Added pixel grid overlay and square shape option to the magnifier.
+    * Magnifier size is now configurable.
+    * Added custom pixel info support.
+    * Cursor can now be moved with arrow keys.
+    * Middle click capture actions are now supported.
+* Image converter improvements:
+    * Added GIF and BMP output.
+    * Added lossless WebP encoding.
+    * Added PNG compression level, filter and bit depth options.
+    * Added BMP bit depth options.
+    * Added JPEG chroma subsampling and background color options.
+* Main window improvements:
+    * Added custom title bar, with theme toggle and "Always on top" buttons.
+    * Added categorized grid layout for the "Tools" menu, with customizable visibility.
+    * Added drag and drop upload overlay.
+    * Thumbnails can now be dragged to export files, or dropped on each other to combine images.
+    * Added "Resize image" action to the upload context menu.
+    * Added start screen, which is shown on first run.
+* Added remote storage browser for Amazon S3, FTP and SFTP, with folder creation, deletion, sorting and drag and drop uploads.
+* Added [Immich](https://immich.app) and img.fish file uploaders.
+* Added MEGA folder selection for uploads.
+* Amazon S3 improvements:
+    * Added multipart upload support, with concurrent part uploads.
+    * Added remote deletion support.
+* uPaste uploader now uses API v2.
+* Removed Vault.ooo uploader.
+* Image viewer now supports cursor centered zoom, <kbd>Ctrl</kbd> + middle click resets zoom.
+* Added process name autocomplete to history search.
+* Added a warning before running installers with invalid signatures.
+* Fixed ZIP extraction path traversal.
+* Fixed tray icon not showing in some cases.
 ## [ShareX 21.0.0](https://github.com/ShareX/ShareX/releases/tag/v21.0.0) - 2026-07-03 {#v21.0.0}
 
 * Added "[Background remover](https://getsharex.com/docs/background-remover)" tool. <a class="badge" href="https://x.com/ShareX/status/2070997583984492789"><i class="fa-brands fa-x-twitter"></i>ShareX</a>
