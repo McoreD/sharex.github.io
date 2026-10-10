@@ -4,7 +4,7 @@ title: Changelog
 description: Review the ShareX changelog for release notes, new features, improvements, and other notable changes.
 ---
 
-## [ShareX 21.1.0](https://github.com/ShareX/ShareX/releases/tag/v21.1.0) - Unreleased {#v21.1.0}
+## [ShareX 22.0.0](https://github.com/ShareX/ShareX/releases/tag/v22.0.0) - Unreleased {#v22.0.0}
 
 * Main window, tray menu, settings, notifications, message boxes and most tools were migrated to [Avalonia UI](https://avaloniaui.net), ShareX now targets .NET 10.
 * Added "Video trimmer" tool, with "Lossless" and "Precise" trim modes, editable timestamps and a "Trim video" action in the task context menu.
